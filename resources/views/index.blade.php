@@ -23,20 +23,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Big5</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Big 5</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Acerca</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+
         <!-- Masthead-->
         <header class="masthead">
             <div class="container h-100">
@@ -46,7 +33,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Ingresa tus numero y te lo diremos en orden!</p>
+                        <p class="text-white-75 font-weight-light mb-5">Ingresa tus numeros y te lo diremos en orden!</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="{{ route('big5')}}">Haz la Prueba</a>
                     </div>
                 </div>
@@ -57,10 +44,10 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Ingresa tus nuemeros!</h2>
+                        <h2 class="text-white mt-0">Ingresa tus nuumeros!</h2>
                         <hr class="divider light my-4" />
                         <p class="text-white-50 mb-4">Puedes ingresarlos y con solo tocar un boton te los mostraremos en Orden!</p>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Empieza Ya!</a>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="{{ route('big5')}}">Empieza Ya!</a>
                     </div>
                 </div>
             </div>

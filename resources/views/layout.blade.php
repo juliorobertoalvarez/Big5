@@ -26,8 +26,9 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Big 5</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Acerca</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('home')}}" href="#page-top">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('big5')}}"href="#big5">Big 5</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">GIT</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -37,7 +38,7 @@
 
         @yield('content')
         <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
+        <section class="page-section bg-dark text-white"id="services">
             <div class="container text-center">
                 <h2 class="mb-4">Puedes ir a ver mas en GIT</h2>
                 <a class="btn btn-light btn-xl" href="https://github.com/JulioRobAlva/Big5">JulioRobAlva GIT</a>
